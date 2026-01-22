@@ -9,6 +9,7 @@ redistributed per https://www.snapeda.com/questions/question/clarification-on-li
 
 button: https://www.snapeda.com/parts/TL1015AF160QG/E-Switch/view-part
 clock: https://www.snapeda.com/parts/ABM8-272-T3/ABRACON/view-part
+switch: https://www.snapeda.com/parts/EVQ-P7A01P/Panasonic%20Electronic%20Components/view-part/
 
 ## Parts from Component Search Enginer (unknown license, must manually download)
 aota inductor 3d model: https://componentsearchengine.com/part-view/AOTA-B201610S3R3-101-T/ABRACON
