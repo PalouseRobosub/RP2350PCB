@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "ABM8-272-T3")(type "KiCad")(uri "${KIPRJMOD}/Library/ABM8-272-T3.kicad_sym")(options "")(descr ""))
   (lib (name "rp2350a-qfn60")(type "KiCad")(uri "${KIPRJMOD}/Library/rp2350a-qfn60.kicad_sym")(options "")(descr ""))
+  (lib (name "PA5430")(type "KiCad")(uri "${KIPRJMOD}/Library/PA5430.kicad_sym")(options "")(descr ""))
 )

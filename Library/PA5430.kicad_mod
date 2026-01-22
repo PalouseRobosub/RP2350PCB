@@ -1,0 +1,115 @@
+(footprint "PA5430"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "FIXED IND 3.3UH 6.6A 28.6 MOHM")
+	(property "Reference" "REF**"
+		(at 0 -2.7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6077bef7-4900-46c0-8403-6e2665e42480")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "PA5430"
+		(at 0 2.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d9735a23-29e5-487b-97ee-b5006c816fc7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1805e47f-770e-4038-b6d2-be4975bbc8cb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c104ffcd-cbe8-46a1-b937-da3de5e350d7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2 0)
+		(end 2 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7d5d711e-8e6c-4249-950f-f9de32fe04b4")
+	)
+	(fp_rect
+		(start -2.0875 -2.0875)
+		(end 2.0875 2.0875)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "485ef798-6324-489d-bf7d-065396a28381")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "56836d1d-eb3f-441e-8cd6-195ea41c97f8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 -1.4)
+		(size 3.8 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5594d697-597b-4024-b49b-43fc3f475000")
+	)
+	(pad "2" smd rect
+		(at 0 1.4)
+		(size 3.8 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b6aa8a93-6cfe-4c80-a1b2-181da3f097cc")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Library/PA5430.332NLT.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 90)
+		)
+	)
+)
