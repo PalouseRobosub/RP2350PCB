@@ -1,34 +1,163 @@
-(module "AOTAB201610S3R3101T" (layer F.Cu)
-  (descr "AOTA-B201610S3R3-101-T")
-  (tags "Inductor")
-  (attr smd)
-  (fp_text reference L** (at 0.000 -0) (layer F.SilkS)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text user %R (at 0.000 -0) (layer F.Fab)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text value "AOTAB201610S3R3101T" (at 0.000 -0) (layer F.SilkS) hide
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_line (start -1 -0.8) (end 1 -0.8) (layer F.Fab) (width 0.1))
-  (fp_line (start 1 -0.8) (end 1 0.8) (layer F.Fab) (width 0.1))
-  (fp_line (start 1 0.8) (end -1 0.8) (layer F.Fab) (width 0.1))
-  (fp_line (start -1 0.8) (end -1 -0.8) (layer F.Fab) (width 0.1))
-  (fp_line (start -2.5 -1.8) (end 2.5 -1.8) (layer F.CrtYd) (width 0.1))
-  (fp_line (start 2.5 -1.8) (end 2.5 1.8) (layer F.CrtYd) (width 0.1))
-  (fp_line (start 2.5 1.8) (end -2.5 1.8) (layer F.CrtYd) (width 0.1))
-  (fp_line (start -2.5 1.8) (end -2.5 -1.8) (layer F.CrtYd) (width 0.1))
-  (fp_line (start 0 -0.8) (end 0 0.8) (layer F.SilkS) (width 0.2))
-  (fp_line (start -2 -0.1) (end -2 -0.1) (layer F.SilkS) (width 0.2))
-  (fp_line (start -2 0.1) (end -2 0.1) (layer F.SilkS) (width 0.2))
-  (fp_arc (start -2 -0) (end -2.000 -0.1) (angle -180) (layer F.SilkS) (width 0.2))
-  (fp_arc (start -2 -0) (end -2.000 0.1) (angle -180) (layer F.SilkS) (width 0.2))
-  (pad 1 smd rect (at -1.000 -0 0) (size 1.000 1.600) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 1.000 -0 0) (size 1.000 1.600) (layers F.Cu F.Paste F.Mask))
-  (model AOTA-B201610S3R3-101-T.stp
-    (at (xyz 0 0 0.0019685039663409))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 -180))
-  )
+(footprint "AOTAB201610S3R3101T"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "AOTA-B201610S3R3-101-T")
+	(tags "Inductor")
+	(property "Reference" "L**"
+		(at 0 -1.7 0)
+		(layer "F.SilkS")
+		(uuid "49c93f3c-2f9b-4fd9-8e3d-4dd4059a78be")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "AOTAB201610S3R3101T"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "1eee80bf-17bc-4d22-85de-1e41703105ab")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0b6f76ff-4747-49a1-acce-5d40c8a94410")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "65e2cd9f-af9a-445f-9c81-79d89594625b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0 -0.8)
+		(end 0 0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7e8f575f-193f-44f4-83b2-24757c846c40")
+	)
+	(fp_circle
+		(center -1.45 0)
+		(end -1.35 0.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "1f503322-17f9-466e-b7b1-b1bd80931e94")
+	)
+	(fp_rect
+		(start -1.2 -1)
+		(end 1.2 1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "e58c8367-f097-4180-a57a-b2d74ae4fe8d")
+	)
+	(fp_line
+		(start -1 -0.8)
+		(end 1 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6a0bd581-fb03-4414-bca2-1490dc8ebfc9")
+	)
+	(fp_line
+		(start -1 0.8)
+		(end -1 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "84d19fde-a28d-48e4-acaf-fe5f6a46304e")
+	)
+	(fp_line
+		(start 1 -0.8)
+		(end 1 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "df7caced-7d93-4dd1-b541-dbf039bd812e")
+	)
+	(fp_line
+		(start 1 0.8)
+		(end -1 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "51a1aad6-c6bd-4113-9b32-a49696dc9fc1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "d67eebf2-03ad-40d1-8d04-6dc898751c19")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.75 0 90)
+		(size 1.6 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ddee5373-51ce-4bdb-a630-7b518963a644")
+	)
+	(pad "2" smd rect
+		(at 0.75 0 90)
+		(size 1.6 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "75d0e7c2-4e8b-4169-9eae-2a0e11737829")
+	)
+	(embedded_fonts no)
+	(model "AOTA-B201610S3R3-101-T.stp"
+		(offset
+			(xyz 0 0 0.04999999999)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -180)
+		)
+	)
 )
