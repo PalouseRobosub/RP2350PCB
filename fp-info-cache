@@ -1,4 +1,4 @@
-27103255333843360
+27105024699283298
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -94622,6 +94622,13 @@ ProjectLibrary
 AOTAB201610S3R3101T
 AOTA-B201610S3R3-101-T
 Inductor
+0
+2
+2
+ProjectLibrary
+PA5430
+FIXED IND 3.3UH 6.6A 28.6 MOHM
+
 0
 2
 2

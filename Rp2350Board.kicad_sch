@@ -5979,6 +5979,16 @@
 		)
 		(uuid "224cb97a-0c1b-4c40-89bb-10678e7dca68")
 	)
+	(label "REG_SW"
+		(at 100.33 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "89ee7544-358f-48d2-9c16-ea83c9771698")
+	)
 	(label "VREG"
 		(at 27.94 97.79 0)
 		(effects
@@ -9417,7 +9427,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ProjectLibrary:PA5430"
 			(at 111.76 35.56 0)
 			(effects
 				(font
