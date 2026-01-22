@@ -149,15 +149,15 @@
 		(uuid "75d0e7c2-4e8b-4169-9eae-2a0e11737829")
 	)
 	(embedded_fonts no)
-	(model "AOTA-B201610S3R3-101-T.stp"
+	(model "${KIPRJMOD}/Library/AOTA-B201610S3R3-101-T.step"
 		(offset
-			(xyz 0 0 0.04999999999)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 -180)
+			(xyz 0 0 0)
 		)
 	)
 )
