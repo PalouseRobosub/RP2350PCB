@@ -7018,12 +7018,12 @@
 		)
 	)
 	(gr_text "M5"
-		(at 122 101 0)
+		(at 121.6 101 0)
 		(layer "F.SilkS")
 		(uuid "655db698-382c-4bd5-a679-bc7acc46d714")
 		(effects
 			(font
-				(size 1 1)
+				(size 1.25 1.25)
 				(thickness 0.2)
 				(bold yes)
 			)
@@ -7031,12 +7031,12 @@
 		)
 	)
 	(gr_text "M3"
-		(at 146 82.85 0)
+		(at 145.6 82.85 0)
 		(layer "F.SilkS")
 		(uuid "6ab255df-ca1f-47bb-9bf8-0860415cac84")
 		(effects
 			(font
-				(size 1 1)
+				(size 1.25 1.25)
 				(thickness 0.2)
 				(bold yes)
 			)
@@ -7044,12 +7044,12 @@
 		)
 	)
 	(gr_text "M1"
-		(at 130 82.85 0)
+		(at 129.6 82.85 0)
 		(layer "F.SilkS")
 		(uuid "6ce9c2da-5ed6-4600-843b-e0fe5f354acd")
 		(effects
 			(font
-				(size 1 1)
+				(size 1.25 1.25)
 				(thickness 0.2)
 				(bold yes)
 			)
@@ -7057,12 +7057,12 @@
 		)
 	)
 	(gr_text "M2"
-		(at 138 82.85 0)
+		(at 137.6 82.85 0)
 		(layer "F.SilkS")
 		(uuid "752fee08-4beb-4cac-b6bc-1565eac29364")
 		(effects
 			(font
-				(size 1 1)
+				(size 1.25 1.25)
 				(thickness 0.2)
 				(bold yes)
 			)
@@ -7083,12 +7083,12 @@
 		)
 	)
 	(gr_text "M9"
-		(at 154 101 0)
+		(at 153.6 101 0)
 		(layer "F.SilkS")
 		(uuid "87a7efdc-b364-47ae-a80f-46512e673e06")
 		(effects
 			(font
-				(size 1 1)
+				(size 1.25 1.25)
 				(thickness 0.2)
 				(bold yes)
 			)
@@ -7096,12 +7096,12 @@
 		)
 	)
 	(gr_text "M0"
-		(at 122 82.8 0)
+		(at 121.6 82.8 0)
 		(layer "F.SilkS")
 		(uuid "968709b1-5d2c-4740-998a-a9dfab4841b7")
 		(effects
 			(font
-				(size 1 1)
+				(size 1.25 1.25)
 				(thickness 0.2)
 				(bold yes)
 			)
@@ -7109,12 +7109,12 @@
 		)
 	)
 	(gr_text "M6"
-		(at 130 101 0)
+		(at 129.6 101 0)
 		(layer "F.SilkS")
 		(uuid "9d8a1cb8-bc52-4f68-a6e7-7a10c572264b")
 		(effects
 			(font
-				(size 1 1)
+				(size 1.25 1.25)
 				(thickness 0.2)
 				(bold yes)
 			)
@@ -7122,12 +7122,12 @@
 		)
 	)
 	(gr_text "M7"
-		(at 138 101 0)
+		(at 137.6 101 0)
 		(layer "F.SilkS")
 		(uuid "a96a6d7a-2d19-475c-83ed-fa063bfe5a28")
 		(effects
 			(font
-				(size 1 1)
+				(size 1.25 1.25)
 				(thickness 0.2)
 				(bold yes)
 			)
@@ -7187,12 +7187,12 @@
 		)
 	)
 	(gr_text "M4"
-		(at 153.815 82.85 0)
+		(at 153.415 82.85 0)
 		(layer "F.SilkS")
 		(uuid "c37e3ac9-0812-4bfb-8c83-a36158e3c337")
 		(effects
 			(font
-				(size 1 1)
+				(size 1.25 1.25)
 				(thickness 0.2)
 				(bold yes)
 			)
@@ -7200,12 +7200,12 @@
 		)
 	)
 	(gr_text "M8"
-		(at 146 101 0)
+		(at 145.6 101 0)
 		(layer "F.SilkS")
 		(uuid "d59e0f24-1102-4777-a2f3-cdac08018a95")
 		(effects
 			(font
-				(size 1 1)
+				(size 1.25 1.25)
 				(thickness 0.2)
 				(bold yes)
 			)
